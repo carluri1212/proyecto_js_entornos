@@ -3,14 +3,14 @@
 const prompt = require('prompt-sync')();
 
 
-let ninos= prompt('Introduzca numero niños: ');
-ninos = Number(ninos);
+let niños= prompt('Introduzca numero niños: ');
+niños = Number(niños);
 
-let ninas = prompt('Introduzca numero niñas: ');
-ninas = Number(ninas);
-let total = ninos + ninas;
-let porcentajeNinos = (ninos / total) * 100;
-let porcentajeNinas = (ninas / total) * 100;
+let niñas = prompt('Introduzca numero niñas: ');
+niñas = Number(niñas);
+let total = niños + niñas;
+let porcentajeNiños = (niños / total) * 100;
+let porcentajeNiñas = (niñas / total) * 100;
 
-        console.log(`Porcentaje de niños: ${porcentajeNinos}%`);
-        console.log(`Porcentaje de niñas: ${porcentajeNinas}%`);
+        console.log(`Porcentaje de niños: ${porcentajeNiños}%`);
+        console.log(`Porcentaje de niñas: ${porcentajeNiñas}%`);
