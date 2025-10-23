@@ -28,3 +28,4 @@ if (okNums){
     let prod = a * b;
     console.log(`suma = ${suma},resta = ${resta}, producto = ${prod}`);
 }
+
