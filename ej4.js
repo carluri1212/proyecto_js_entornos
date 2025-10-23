@@ -30,13 +30,15 @@ if (Number(c).isNaN){
 } else{
 c = Number(c);
 }
-if (okNums){
-}
-Number> 0;
-    let suma = a + b + c;
-    console.log(suma);
 
-if (Number < 0){
-    let producto = a * b * c;
-    console.log(producto);
+if (okNums){
+
+    if (a < 0){
+        let producto = a * b * c;
+        console.log(producto);
+    } else {
+        let suma = a + b + c;
+        console.log(suma);
+
+    }
 }
