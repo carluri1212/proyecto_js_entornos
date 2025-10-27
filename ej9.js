@@ -6,10 +6,15 @@
 let prompt = require('prompt-sync')();
 
 
-let tieneBachiller = prompt('¿Tienes el título de bachiller?: ');
+let tieneBachiller = prompt('¿Tienes el título de bachiller?: ')
+                                                   .toLowerCase()
+                                                         .trim();
 
 
-let pruebaAcceso = prompt('¿Has superado la prueba de acceso?: ');
+let pruebaAcceso = prompt('¿Has superado la prueba de acceso?: ')
+                                                   .toLowerCase()
+                                                         .trim();
+
 
 
 if (tieneBachiller == 'si' ||  pruebaAcceso == 'si') {
